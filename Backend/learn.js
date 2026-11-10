@@ -69,3 +69,10 @@ app.listen(3000,()=>{
 
 
 
+// simple chceklist
+// 1.backend exposes endpoints(Rest/graph)
+// 2.enable cors or set up a dev proxy, dev proxy means we can set up a proxy in frontend package.json file to avoid cors error
+// 3.frontend uses fetch/axios/apollo/socket.io to call them
+// 4.store api base url in env variables
+// 5.handle auth tokens and errors
+// 6.deploy both (same domain or configure cors on backend host)
